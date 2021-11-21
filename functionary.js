@@ -52,6 +52,7 @@ function PIM(i1, i2, func) {
 function beta(x,y){
     B=math.evaluate('(gamma(x)*gamma(y))/(gamma(x+y))',{x:x,y:y});
     return B;
+    
 };
 
 
